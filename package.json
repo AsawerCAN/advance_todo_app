@@ -1,5 +1,5 @@
 {
-  "name": "todo_sqlite",
+  "name": "advance_todo",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -10,10 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Full stack todo application that uses a NodeJS backend, a SQLite database and JWT Authentication.",
+  "description": "Dockerized Full stack todo application that uses a NodeJS backend, a PostgreSQL database, a Prism ORM and JWT Authentication.",
   "dependencies": {
+    "@prisma/client": "^6.0.1",
     "bcryptjs": "^2.4.3",
     "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "prisma": "^6.0.1"
   }
 }
